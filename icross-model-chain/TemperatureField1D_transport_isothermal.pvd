@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0" group="" part="0" file="TemperatureField1D_transport_isothermal_ts_0_t_0.000000.vtu"/>
+    <DataSet timestep="12614400" group="" part="0" file="TemperatureField1D_transport_isothermal_ts_146_t_12614400.000000.vtu"/>
+    <DataSet timestep="25228800" group="" part="0" file="TemperatureField1D_transport_isothermal_ts_292_t_25228800.000000.vtu"/>
+    <DataSet timestep="37843200" group="" part="0" file="TemperatureField1D_transport_isothermal_ts_438_t_37843200.000000.vtu"/>
+    <DataSet timestep="50457600" group="" part="0" file="TemperatureField1D_transport_isothermal_ts_584_t_50457600.000000.vtu"/>
+    <DataSet timestep="63072000" group="" part="0" file="TemperatureField1D_transport_isothermal_ts_730_t_63072000.000000.vtu"/>
+  </Collection>
+</VTKFile>
