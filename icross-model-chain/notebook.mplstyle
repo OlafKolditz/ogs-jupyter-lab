@@ -1,7 +1,7 @@
-axes.titlesize : 18
-axes.labelsize : 14
-lines.linewidth : 3
+axes.titlesize : 14
+axes.labelsize : 12
+lines.linewidth : 2
 xtick.labelsize : 12
 ytick.labelsize : 12
-figure.figsize : 12,7
+figure.figsize : 8,6
 legend.fontsize : 12
