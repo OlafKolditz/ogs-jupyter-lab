@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <OpenGeoSysProject>
     <meshes>
-        <mesh>TemperatureField_transport.vtu</mesh>
+        <mesh>TemperatureField1D.vtu</mesh>
         <mesh>TemperatureField1D_BHLateral.vtu</mesh>
         <mesh>TemperatureField1D_Right.vtu</mesh>
     </meshes>
@@ -151,7 +151,7 @@
         </processes>
         <output>
             <type>VTK</type>
-            <prefix>TemperatureField_transport</prefix>
+            <prefix>TemperatureField1D_transport_isothermal</prefix>
             <timesteps>
                 <pair>
                     <repeat>5</repeat>
@@ -182,8 +182,8 @@
         </parameter>
         <parameter>
             <name>Dm</name>
-            <type>MeshElement</type>
-            <field_name>Dm</field_name>
+            <type>Constant</type>
+            <value>2e-11</value>
         </parameter>
         <parameter>
             <name>p0</name>
@@ -265,13 +265,13 @@
     </linear_solvers>
     <test_definition>
         <vtkdiff>
-            <regex>TemperatureField_transport_ts_[0-9]*_t_[0-9]*.000000.vtu</regex>
+            <regex>TemperatureField_transport_isothermal_ts_[0-9]*_t_[0-9]*.000000.vtu</regex>
             <field>pressure</field>
             <absolute_tolerance>1e-6</absolute_tolerance>
             <relative_tolerance>1e-10</relative_tolerance>
         </vtkdiff>
         <vtkdiff>
-            <regex>TemperatureField_transport_ts_[0-9]*_t_[0-9]*.000000.vtu</regex>
+            <regex>TemperatureField_transport_isothermal_ts_[0-9]*_t_[0-9]*.000000.vtu</regex>
             <field>Cs</field>
             <absolute_tolerance>1e-10</absolute_tolerance>
             <relative_tolerance>1e-16</relative_tolerance>

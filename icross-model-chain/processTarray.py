@@ -20,7 +20,7 @@ def write_vtu(path, mesh):
 
 
 in_vtu = "TemperatureField1D_ts_365_t_31536000.000000.vtu"
-out_vtu = "TemperatureField_transport.vtu"
+out_vtu = "TemperatureField1D_transport.vtu"
 
 mesh = read_vtu(in_vtu)
 
