@@ -15,6 +15,7 @@
                 <concentration>Cs</concentration>
                 <pressure>pressure</pressure>
             </process_variables>
+            <temperature_field>T</temperature_field>
             <specific_body_force>0</specific_body_force>
         </process>
     </processes>
@@ -29,8 +30,10 @@
                             <properties>
                                 <property>
                                     <name>pore_diffusion</name>
-                                    <type>Parameter</type>
-                                    <parameter_name>Dm</parameter_name>
+                                    <type>TemperatureDependentDiffusion</type>
+                                    <reference_diffusion>Dm0</reference_diffusion>
+                                    <activation_energy>17e3</activation_energy>
+                                    <reference_temperature>298.15</reference_temperature>
                                 </property>
                                 <property>
                                     <name>retardation_factor</name>
@@ -181,9 +184,14 @@
             <value>0</value>
         </parameter>
         <parameter>
-            <name>Dm</name>
-            <type>MeshElement</type>
-            <field_name>Dm</field_name>
+            <name>Dm0</name>
+            <type>Constant</type>
+            <value>2e-11</value>
+        </parameter>
+        <parameter>
+            <name>T</name>
+            <type>MeshNode</type>
+            <field_name>T</field_name>
         </parameter>
         <parameter>
             <name>p0</name>
