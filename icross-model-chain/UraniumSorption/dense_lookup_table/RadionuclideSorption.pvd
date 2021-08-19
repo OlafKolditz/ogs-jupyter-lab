@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0" group="" part="0" file="RadionuclideSorption_ts_0_t_0.000000.vtu"/>
+    <DataSet timestep="23000" group="" part="0" file="RadionuclideSorption_ts_23_t_23000.000000.vtu"/>
+    <DataSet timestep="46000" group="" part="0" file="RadionuclideSorption_ts_46_t_46000.000000.vtu"/>
+    <DataSet timestep="69000" group="" part="0" file="RadionuclideSorption_ts_69_t_69000.000000.vtu"/>
+    <DataSet timestep="92000" group="" part="0" file="RadionuclideSorption_ts_92_t_92000.000000.vtu"/>
+    <DataSet timestep="115000" group="" part="0" file="RadionuclideSorption_ts_115_t_115000.000000.vtu"/>
+  </Collection>
+</VTKFile>
