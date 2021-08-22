@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0" group="" part="0" file="diffusion_1D_ts_0_t_0.000000.vtu"/>
+    <DataSet timestep="3153600000" group="" part="0" file="diffusion_1D_ts_10_t_3153600000.000000.vtu"/>
+    <DataSet timestep="63072000000" group="" part="0" file="diffusion_1D_ts_20_t_63072000000.000000.vtu"/>
+    <DataSet timestep="946080000000" group="" part="0" file="diffusion_1D_ts_30_t_946080000000.000000.vtu"/>
+    <DataSet timestep="4099680000000" group="" part="0" file="diffusion_1D_ts_40_t_4099680000000.000000.vtu"/>
+    <DataSet timestep="7253280000000" group="" part="0" file="diffusion_1D_ts_50_t_7253280000000.000000.vtu"/>
+    <DataSet timestep="10406880000000" group="" part="0" file="diffusion_1D_ts_60_t_10406880000000.000000.vtu"/>
+    <DataSet timestep="13560480000000" group="" part="0" file="diffusion_1D_ts_70_t_13560480000000.000000.vtu"/>
+    <DataSet timestep="16714080000000" group="" part="0" file="diffusion_1D_ts_80_t_16714080000000.000000.vtu"/>
+    <DataSet timestep="19867680000000" group="" part="0" file="diffusion_1D_ts_90_t_19867680000000.000000.vtu"/>
+    <DataSet timestep="23021280000000" group="" part="0" file="diffusion_1D_ts_100_t_23021280000000.000000.vtu"/>
+    <DataSet timestep="26174880000000" group="" part="0" file="diffusion_1D_ts_110_t_26174880000000.000000.vtu"/>
+    <DataSet timestep="29328480000000" group="" part="0" file="diffusion_1D_ts_120_t_29328480000000.000000.vtu"/>
+    <DataSet timestep="31536000000000" group="" part="0" file="diffusion_1D_ts_127_t_31536000000000.000000.vtu"/>
+  </Collection>
+</VTKFile>
