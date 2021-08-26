@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet timestep="0" group="" part="0" file="FEM_ts_0_t_0.000000.vtu"/>
+    <DataSet timestep="625" group="" part="0" file="FEM_ts_500_t_625.000000.vtu"/>
+    <DataSet timestep="1250" group="" part="0" file="FEM_ts_1000_t_1250.000000.vtu"/>
+    <DataSet timestep="1875" group="" part="0" file="FEM_ts_1500_t_1875.000000.vtu"/>
+    <DataSet timestep="2500" group="" part="0" file="FEM_ts_2000_t_2500.000000.vtu"/>
+    <DataSet timestep="3125" group="" part="0" file="FEM_ts_2500_t_3125.000000.vtu"/>
+    <DataSet timestep="3750" group="" part="0" file="FEM_ts_3000_t_3750.000000.vtu"/>
+    <DataSet timestep="4375" group="" part="0" file="FEM_ts_3500_t_4375.000000.vtu"/>
+    <DataSet timestep="5000" group="" part="0" file="FEM_ts_4000_t_5000.000000.vtu"/>
+    <DataSet timestep="5625" group="" part="0" file="FEM_ts_4500_t_5625.000000.vtu"/>
+    <DataSet timestep="6250" group="" part="0" file="FEM_ts_5000_t_6250.000000.vtu"/>
+    <DataSet timestep="6875" group="" part="0" file="FEM_ts_5500_t_6875.000000.vtu"/>
+    <DataSet timestep="7500" group="" part="0" file="FEM_ts_6000_t_7500.000000.vtu"/>
+    <DataSet timestep="8125" group="" part="0" file="FEM_ts_6500_t_8125.000000.vtu"/>
+    <DataSet timestep="8750" group="" part="0" file="FEM_ts_7000_t_8750.000000.vtu"/>
+    <DataSet timestep="9375" group="" part="0" file="FEM_ts_7500_t_9375.000000.vtu"/>
+    <DataSet timestep="10000" group="" part="0" file="FEM_ts_8000_t_10000.000000.vtu"/>
+    <DataSet timestep="10625" group="" part="0" file="FEM_ts_8500_t_10625.000000.vtu"/>
+    <DataSet timestep="11250" group="" part="0" file="FEM_ts_9000_t_11250.000000.vtu"/>
+    <DataSet timestep="11875" group="" part="0" file="FEM_ts_9500_t_11875.000000.vtu"/>
+    <DataSet timestep="12500" group="" part="0" file="FEM_ts_10000_t_12500.000000.vtu"/>
+  </Collection>
+</VTKFile>
