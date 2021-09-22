@@ -4,6 +4,8 @@
 # Nom : ThermoChimie project
 # BDD Date: 10/8/2015
 # Comment: no comment
+# Surface model for Cs included by V. Montoya from Aguila et al. (2021). Computational Geosciences, 25, 1405–1436. https://doi.org/10.1007/s10596-021-10050-5
+# The aqueous complex CsCl has been eliminated from the database as well (V. Montoya)
 
 LLNL_AQUEOUS_MODEL_PARAMETERS
  -temperatures
