@@ -770,7 +770,7 @@
                 <component>Sr</component>
             </components>
         </solution>
-        <surface>
+        <surface_moles>
             <site>
                 <name>Su_</name>
             </site>
@@ -780,7 +780,7 @@
             <site>
                 <name>Su_ii</name>
             </site>
-        </surface>
+        </surface_moles>
         <knobs>
             <max_iter>10000</max_iter>
             <relative_convergence_tolerance>1e-13</relative_convergence_tolerance>
