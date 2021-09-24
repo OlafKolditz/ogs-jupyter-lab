@@ -770,7 +770,9 @@
                 <component>Sr</component>
             </components>
         </solution>
-        <surface_moles>
+        <surface_sites_units>absolute</surface_sites_units>
+        <surface_no_edl>true</surface_no_edl>
+        <surface>
             <site>
                 <name>Su_</name>
             </site>
@@ -780,7 +782,7 @@
             <site>
                 <name>Su_ii</name>
             </site>
-        </surface_moles>
+        </surface>
         <knobs>
             <max_iter>10000</max_iter>
             <relative_convergence_tolerance>1e-13</relative_convergence_tolerance>
