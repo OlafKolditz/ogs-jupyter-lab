@@ -770,9 +770,8 @@
                 <component>Sr</component>
             </components>
         </solution>
-        <surface_sites_units>absolute</surface_sites_units>
-        <surface_no_edl>true</surface_no_edl>
         <surface>
+            <sites_units>absolute</sites_units>
             <site>
                 <name>Su_</name>
             </site>
