@@ -770,8 +770,7 @@
                 <component>Sr</component>
             </components>
         </solution>
-        <surface>
-            <sites_units>absolute</sites_units>
+        <surface site_unit="mole">
             <site>
                 <name>Su_</name>
             </site>
