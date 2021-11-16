@@ -444,6 +444,7 @@
     <chemical_system chemical_solver="Phreeqc">
         <mesh>RadionuclideSorption_ReactiveDomain</mesh>
         <database>PSINA_12_07_110615_DAV_s_hzdr.dat</database>
+        <linear_solver>general_linear_solver</linear_solver>
         <solution>
             <temperature>14</temperature>
             <pressure>1</pressure>
@@ -457,52 +458,52 @@
                 <component>U(6)</component>
             </components>
         </solution>
-        <surface>
+        <surface site_unit="density">
             <site>
                 <!--Qz  = Mineral phase: Quartz, amorphous Silica-->
-		        <name>QzOH</name>
+                <name>QzOH</name>
                 <site_density>2.31</site_density>
                 <specific_surface_area>0.007</specific_surface_area>
                 <mass>9010</mass>
             </site>
             <site>
                 <!--Alb = Mineral group: Feldspar (albite)-->
-		        <name>AlbOH</name>
+                <name>AlbOH</name>
                 <site_density>2.31</site_density>
                 <specific_surface_area>0.21</specific_surface_area>
                 <mass>1060</mass>
             </site>
             <site>
                 <!--Mus  = Mineral group: Mica (muscovite)-->
-		        <name>MusOH</name>
+                <name>MusOH</name>
                 <site_density>2.31</site_density>
                 <specific_surface_area>1.72</specific_surface_area>
                 <mass>53</mass>
             </site>
             <site>
-                <!--Hem  = Mineral group: Fe(III)-oxids/-hydroxids (hematite)-->
-		        <name>HemOH</name>
+                <!--Hem  = Mineral group: Fe(III)-oxids/-hydroxids (hematite)--> 
+                <name>HemOH</name>
                 <site_density>2.31</site_density>
                 <specific_surface_area>0.26</specific_surface_area>
                 <mass>53</mass>
             </site>
             <site>
                 <!--Gibb  = Mineral group: Al-hydroxids (gibbsite)-->
-		        <name>GibbOH</name>
+                <name>GibbOH</name>
                 <site_density>2.31</site_density>
                 <specific_surface_area>0.11</specific_surface_area>
                 <mass>53</mass>
             </site>
             <site>
                 <!--Kao = Mineral group: 2-layer-clay minerals (kaolinite)-->
-		        <name>KaoOH</name>
+                <name>KaoOH</name>
                 <site_density>2.31</site_density>
                 <specific_surface_area>0.07</specific_surface_area>
                 <mass>159</mass>
             </site>
         </surface>
         <user_punch>
-	        <headline>Kd_U(6)</headline>
+            <headline>Kd_U(6)</headline>
             <statement>k1=(mol("QzOUO2CO3-") + mol("QzOUO2+")+ mol("QzOUO2(OH)"))</statement>
             <statement>k2=(mol("AlbOUO2+"))</statement>
             <statement>k3=(mol("MusOUO2+") + mol("MusOUO2CO3-"))</statement>
