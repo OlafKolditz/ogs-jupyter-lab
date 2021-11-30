@@ -392,13 +392,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -419,13 +419,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -446,13 +446,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -473,13 +473,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -500,13 +500,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -527,13 +527,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -554,13 +554,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -581,13 +581,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -608,13 +608,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -635,13 +635,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
@@ -662,13 +662,13 @@
                     <t_end>152909090.88</t_end>
                     <timesteps>
                         <pair>
-                            <repeat>99995</repeat>
+                            <repeat>80</repeat>
                             <delta_t>1911363.636</delta_t>
                         </pair>
-                        <pair>
+                        <!--pair>
                             <repeat>213055</repeat>
                             <delta_t>146537936.21365374</delta_t>
-                        </pair>
+                        </pair-->
                     </timesteps>
                 </time_stepping>
             </process>
